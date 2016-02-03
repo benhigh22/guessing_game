@@ -5,8 +5,7 @@ close_num_low = [65, 66, 67, 68, 69]
 close_num_hi = [71, 72, 73, 74, 75]
 
 for _ in range(5):
-    print("Attempt number")
-    print(_ + 1)
+    print ("Attempt number " + str(_ + 1))
 
     try:
         guess = int(input("Guess the number between 1 and 99 "))
